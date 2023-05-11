@@ -19,7 +19,6 @@ formEl.addEventListener('submit', ev => {
   fetchData(inputText, page);
 });
 
-// const axios = require('axios');
 async function fetchData(inputText, page) {
   try {
     const response = await axios.get('https://pixabay.com/api/', {
